@@ -25,11 +25,72 @@ body {
     line-height: 15px;
     color: #000;
     margin-top: 41px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-left: -1px; }
   .card__product_code {
     font-size: 11px;
     line-height: 13px;
-    margin-top: 5px; }
+    margin-top: 5px;
+    margin-left: -1px; }
+  .card__feedback {
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 0;
+    padding-left: 19px; }
+  .card__about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .card__price_name {
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 14px;
+    margin-left: -1px; }
+  .card__price {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 60px;
+    margin-top: 8px; }
+  .card__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5px;
+    margin-left: -1px; }
+    .card__button_link {
+      text-decoration: none; }
+  .card__buy {
+    width: 170px;
+    height: 40px;
+    background-color: #00acdc;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer; }
+    .card__buy:hover {
+      background-color: #fff;
+      color: #00acdc;
+      border: 1px solid #00acdc;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 40px; }
+  .card__text {
+    text-align: center;
+    margin: 0 auto; }
 
 .stars {
   display: -webkit-box;
@@ -46,69 +107,5 @@ body {
       background-image: url(../images/star-active.svg); }
     .stars__img:nth-child(5) {
       margin-right: 0; }
-
-.card__feedback {
-  font-size: 11px;
-  line-height: 13px;
-  margin-top: 0;
-  padding-left: 19px; }
-
-.card__about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.card__price_name {
-  font-size: 11px;
-  line-height: 13px;
-  margin-top: 14px; }
-
-.card__price {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  padding-left: 60px;
-  margin-top: 8px; }
-
-.card__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 4px; }
-  .card__button_link {
-    text-decoration: none; }
-
-.card__buy {
-  width: 170px;
-  height: 40px;
-  background-color: #00acdc;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #fff;
-  line-height: 40px;
-  text-align: center;
-  cursor: pointer; }
-  .card__buy:hover {
-    background-color: #fff;
-    color: #00acdc;
-    border: 1px solid #00acdc;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 40px; }
-
-.card__text {
-  text-align: center;
-  margin: 0 auto; }
 
 /*# sourceMappingURL=cards.css.map */
