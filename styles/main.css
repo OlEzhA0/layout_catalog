@@ -193,8 +193,9 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-top: 50px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .wrap--second {
   display: -webkit-box;
@@ -205,7 +206,8 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-top: 50px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 /*# sourceMappingURL=main.css.map */
