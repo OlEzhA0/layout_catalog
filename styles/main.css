@@ -168,16 +168,22 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 17px; }
-  .stars__img {
-    background-image: url(../images/star.svg);
-    background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
-    margin-right: 4px; }
-    .stars__img:nth-child(-n+4) {
-      background-image: url(../images/star-active.svg); }
-    .stars__img:nth-child(5) {
-      margin-right: 0; }
+
+.stars__img {
+  background-image: url(../images/star.svg);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px; }
+  .stars__img:nth-child(5) {
+    margin-right: 0; }
+
+.stars--1 .stars__img:nth-child(1),
+.stars--2 .stars__img:nth-child(-n+2),
+.stars--3 .stars__img:nth-child(-n+3),
+.stars--4 .stars__img:nth-child(-n+4),
+.stars--5 .stars__img:nth-child(-n+5) {
+  background-image: url(../images/star-active.svg); }
 
 @media (max-width: 1199px) {
   .wrap--first,
