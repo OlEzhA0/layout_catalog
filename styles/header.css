@@ -44,7 +44,9 @@
   line-height: 60px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #000; }
+  color: #000;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s; }
   .link:hover {
     color: #00acdc; }
 
