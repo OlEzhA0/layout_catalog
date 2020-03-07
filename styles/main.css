@@ -210,34 +210,19 @@ body {
 .stars--5 .stars__img:nth-child(-n+5) {
   background-image: url(../images/star-active.svg); }
 
-@media (max-width: 1199px) {
-  .wrap--first,
-  .wrap--second {
-    margin-left: 40px; }
-  .card {
-    margin-right: 48px; } }
-
-@media (min-width: 1200px) {
-  .wrap--first,
-  .wrap--second {
-    margin-left: 128px; }
-  .card {
-    margin-right: 48px; } }
-
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+.container {
+  margin-top: 50px;
   margin-bottom: 78px; }
-
-.wrap--first,
-.wrap--second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-top: 50px; }
+  .container__wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 944px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-row-gap: 50px;
+    grid-column-gap: 48px; }
+    @media (min-width: 1200px) {
+      .container__wrapper .container {
+        max-width: 1200px; } }
 
 /*# sourceMappingURL=main.css.map */
